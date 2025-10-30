@@ -52,7 +52,40 @@ main{
     display: flex;
     flex-direction: column;
     width: 96%;
-    height: 100vh;
+    height: 300vh;
     margin: 2%;
     background-color: aqua;
 }
+
+.secao1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid blue;
+    padding: 2%;
+    gap: 7%;
+}
+
+.habilidades{
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: space-evenly;
+}
+
+.habilidades div{
+    width: 30%;
+    height: 30%;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+
+.linguagens, .banco, .git,.microsoft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.5%;
+}
+
