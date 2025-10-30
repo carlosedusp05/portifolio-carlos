@@ -200,3 +200,28 @@ main{
     flex-direction: column;
     gap: 5%;
 }
+
+.contato {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid blue;
+    margin: 2%;
+    gap: 50px;
+  }
+  
+  .contato h1 {
+    font-size: 2rem;
+    color: #0033cc;
+    border-bottom: 3px solid #0033cc;
+    padding-bottom: 5px;
+    width: fit-content;
+  }
+  
+  .contato h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+  }
+  
