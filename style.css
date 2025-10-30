@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     background-color: gainsboro;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -143,23 +144,59 @@ main{
     color: black;
 }
 
-.secao3{
+.secao3 {
     height: 100vh;
     display: flex;
     flex-direction: column;
     border-top: 2px solid blue;
     padding: 2%;
-    gap: 7%;
-    background-color: aliceblue;
-}
+    gap: 50px;
+  }
+  
+
+  .experiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+  }
+  
+  .experiencia h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  
+  .certificados {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .links li {
+    list-style: none;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .links a:hover {
+    color: #0066cc;
+  }
 
 .experiencia {
-    background-color: brown;
     display: flex;
     flex-direction: column;
     gap: 5%;
-}
-
-.certificados {
-    background-color: aquamarine;
 }
