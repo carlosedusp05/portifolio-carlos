@@ -237,4 +237,14 @@ main{
   .contato a {
     color: #0066cc;
   }
+
+  @media (max-width: 768px) {
+    .titulo, .bemVindo{
+        font-size: small;
+    }
+
+    .subTitulo, .descricao{
+        font-size: x-small;
+    }
+  }
   
