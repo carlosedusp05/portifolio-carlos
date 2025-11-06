@@ -20,6 +20,7 @@ header {
     height: 7%;
     border-bottom: 5px solid blue;
     padding-top: 1%;
+    font-size: large;
 }
 
 .container{
@@ -47,13 +48,15 @@ header {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
 }
 
 main{
     display: flex;
     flex-direction: column;
     width: 96%;
-    height: 300vh;
+    height: 260vh;
     margin: 2%;
     background-color: aqua;
 }
@@ -120,32 +123,44 @@ main{
     justify-content: space-between;
 }
 
-.rep1 img{
+.rep1 img, .rep2 img{
     height: 40%;
     width: 40%;
     object-fit: cover;
-}
-
-.rep2 img {
-    height: 45%;
-    width: 60%;
-    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
 }
 
 .saibaMais{
     width: 30%;
     height: 10%;
     border-radius: 5px;
+    border: 2.5px solid black;
+    font-size: large;
+}
+
+.saibaMais:hover{
+    border-color: #0066cc;
+    transform: translateY(-2px);
+}
+
+.saibaMais :hover{
+    color: #0066cc;
 }
 
 .saibaMais a{
+    display: flex;
     text-decoration: none;
     font: 500;
     color: black;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .secao3 {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     border-top: 2px solid blue;
@@ -179,15 +194,13 @@ main{
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-  
-  .links li {
-    list-style: none;
+    padding-left: 2%;
   }
   
   .links a {
     text-decoration: none;
     color: #333;
+    font-size: large;
     font-weight: 500;
   }
   
@@ -202,26 +215,26 @@ main{
 }
 
 .contato {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     border-top: 2px solid blue;
     margin: 2%;
-    gap: 50px;
+    padding-left: 2%;
+    gap: 15px;
   }
   
   .contato h1 {
     font-size: 2rem;
-    color: #0033cc;
-    border-bottom: 3px solid #0033cc;
-    padding-bottom: 5px;
-    width: fit-content;
+    margin-top: 20px;
   }
   
   .contato h2 {
     font-size: 1.1rem;
-    font-weight: 400;
-    color: #333;
-    line-height: 1.5;
+    font-weight: 500;
+  }
+
+  .contato a {
+    color: #0066cc;
   }
   
